@@ -1,6 +1,6 @@
 # CampusLens
 
-CampusLens is a college discovery and comparison MVP for the **AI Software Engineer Internship**, selected role **Full Stack Engineer**, and selected track **Track A — College Discovery Platform**. It is built on the existing Next.js App Router frontend. The application supports server-side college search, filtering, sorting, pagination, detailed college pages, and two- or three-college comparison while preserving the original editorial academic visual system.
+CampusLens is a college discovery and comparison MVP. It is built on the existing Next.js App Router frontend. The application supports server-side college search, filtering, sorting, pagination, detailed college pages, and two- or three-college comparison while preserving the original editorial academic visual system.
 
 ## Features
 
