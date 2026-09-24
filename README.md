@@ -97,7 +97,7 @@ npm run db:seed
 
 The seed script is `prisma/seed.ts`. It reuses the approximately 12 original fictional colleges from `lib/data/colleges.ts` and normalizes their courses and reviews. Placement records are created for every college; median package and placement rate are derived MVP fields because they were not present in the original frontend dataset.
 
-## Verification commands
+## Verification command
 
 ```bash
 npm run typecheck
