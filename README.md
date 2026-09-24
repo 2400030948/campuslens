@@ -116,7 +116,7 @@ curl 'http://localhost:3000/api/colleges?minFees=100000&maxFees=300000'
 curl 'http://localhost:3000/api/compare?ids=1,2'
 ```
 
-## Vercel and Neon deployment
+## Vercel & Neon deployment
 
 Create a Neon PostgreSQL database, copy its pooled or direct connection string into Vercel as `DATABASE_URL`, and deploy the repository as a Next.js project. Run the migration against the deployment database with `npm run db:migrate`, then run `npm run db:seed` once. Vercel builds should run `npm run build`; Prisma Client is generated during dependency installation or can be generated explicitly before the build.
 
